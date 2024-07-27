@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import { promiseComponent } from './src/concepts/03-promises'
 import { asyncComponent } from './src/concepts/05-async'
 import { asyncawaitComponent } from './src/concepts/06-async-await'
+import { forAwaitComponent } from './src/concepts/08-for-await'
+import { genenerateComponent } from './src/concepts/09-generator'
 
 
 document.querySelector('#app').innerHTML = `
@@ -22,4 +24,6 @@ document.querySelector('#app').innerHTML = `
 `
 // promiseComponent(document.querySelector('.card'));
 // asyncComponent(document.querySelector('.card'));
-asyncawaitComponent(document.querySelector('.card'));
+// asyncawaitComponent(document.querySelector('.card'));
+// forAwaitComponent(document.querySelector('.card'));
+genenerateComponent (document.querySelector('.card'));
