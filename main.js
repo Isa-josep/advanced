@@ -2,6 +2,8 @@ import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { promiseComponent } from './src/concepts/03-promises'
+import { asyncComponent } from './src/concepts/05-async'
+import { asyncawaitComponent } from './src/concepts/06-async-await'
 
 
 document.querySelector('#app').innerHTML = `
@@ -18,4 +20,6 @@ document.querySelector('#app').innerHTML = `
     </div>
   </div>
 `
-promiseComponent(document.querySelector('.card'));
+// promiseComponent(document.querySelector('.card'));
+// asyncComponent(document.querySelector('.card'));
+asyncawaitComponent(document.querySelector('.card'));
